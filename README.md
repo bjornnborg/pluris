@@ -10,9 +10,9 @@ Install:
 * Use it like a maven dependency on your project
 
 	<dependency>
-		<groupId>br.com.fixturefactory</groupId>
-		<artifactId>fixture-factory</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<groupId>br.com.six2six</groupId>
+		<artifactId>pluris</artifactId>
+		<version>1.0</version>
 	</dependency>
 
 Usage:
