@@ -1,4 +1,4 @@
-Pluris - Lightweight framework to handle plurals in java applications
+ï»¿Pluris - Lightweight framework to handle plurals in java applications
 =====================================================================
 
 Install:
@@ -47,9 +47,9 @@ Add messages to the file following the format below:
 	            "messagePattern":"{0} e {1}",
 	            "plurals":[
 	               {
-	                  "zeroOccurs":"{0} maçãs",
-	                  "oneOccur":"{0} maçã",
-	                  "manyOccurs":"{0} maçãs"
+	                  "zeroOccurs":"{0} maÃ§Ã£s",
+	                  "oneOccur":"{0} maÃ§Ã£",
+	                  "manyOccurs":"{0} maÃ§Ã£s"
 	               },
 	               {
 	                  "zeroOccurs":"nenhum abacaxi",
