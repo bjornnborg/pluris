@@ -66,11 +66,11 @@ You can use a short locale to your messages. Pluris is able to find messages for
 
 Retrieve a message
 
-	String msg = PlurisUtils.getMessage("your.message.key", arg1, ...argN);
+	String msg = PlurisUtil.getMessage("your.message.key", arg1, ...argN);
 
 Or retrieve a message for a specific locale:
 
-	String msg = PlurisUtils.getMessage(new Locale("pt", "BR"), "your.message.key", arg1, ...argN);
+	String msg = PlurisUtil.getMessage(new Locale("pt", "BR"), "your.message.key", arg1, ...argN);
 
 If you want to split your messages into multiple files, add a pluris.properties in the root of your project classpath:
 
