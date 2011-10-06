@@ -19,7 +19,7 @@ Usage:
 ------
 Add a pluris.json file in the root of your project classpath;
 
-Add messages to the file following the format below;
+Add messages to the file following the format below:
 
 	{
 	   "config":{
@@ -62,16 +62,16 @@ Add messages to the file following the format below;
 	   }
 	}
 
-* You can use a short locale to your messages. Pluris is able to find messages for "en" when using "en_US" as default locale;
+You can use a short locale to your messages. Pluris is able to find messages for "en" when using "en_US" as default locale;
 
-* Retrieve a message
+Retrieve a message
 
 	String msg = PlurisUtils.getMessage("your.message.key", arg1, ...argN);
 
-* Or retrieve a message for a specific locale:
+Or retrieve a message for a specific locale:
 
 	String msg = PlurisUtils.getMessage(new Locale("pt", "BR"), "your.message.key", arg1, ...argN);
 
-* If you want to split your messages into multiple files, add a pluris.properties in the root of your project classpath:
+If you want to split your messages into multiple files, add a pluris.properties in the root of your project classpath:
 
 	files.to.load=/file.json, /file_en_US.json, /file_pt_BR.json
