@@ -3,11 +3,11 @@ Pluris - Lightweight framework to handle plurals in java applications
 
 Install:
 --------
-* Clone pluris project and install in your local repository:
+Clone pluris project and install in your local repository:
 
 	$ mvn clean install
 
-* Use it like a maven dependency on your project
+Use it like a maven dependency on your project
 
 	<dependency>
 		<groupId>br.com.six2six</groupId>
