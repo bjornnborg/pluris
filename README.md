@@ -17,8 +17,9 @@ Use it like a maven dependency on your project
 
 Usage:
 ------
-* Add a pluris.json file in the root of your project classpath;
-* Add messages to the file following the format above
+Add a pluris.json file in the root of your project classpath;
+
+Add messages to the file following the format below;
 
 	{
 	   "config":{
