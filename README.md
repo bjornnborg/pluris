@@ -66,7 +66,11 @@ You can use a short locale to your messages. Pluris is able to find messages for
 
 Retrieve a message
 
-	String msg = PlurisUtil.getMessage("your.message.key", arg1, ...argN);
+	String msg = PlurisUtil.getMessage("fruits.message", 3, 6);
+
+msg is now
+
+	"3 apples and 6 pineapples"
 
 Or retrieve a message for a specific locale:
 
