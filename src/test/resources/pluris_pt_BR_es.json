@@ -1,0 +1,23 @@
+{
+   "config":{
+      "messages":[
+         {
+            "locale":"pt_BR_es",
+            "messageKey":"vehicles.message",
+            "messagePattern":"{0} e {1}",
+            "plurals":[
+               {
+                  "zeroOccurs":"{0} carros",
+                  "oneOccur":"{0} carro",
+                  "manyOccurs":"{0} carros"
+               },
+               {
+                  "zeroOccurs":"nenhuma bicicleta",
+                  "oneOccur":"{1} bicicleta",
+                  "manyOccurs":"{1} bicicletas"
+               }
+            ]
+         }         
+      ]
+   }
+}

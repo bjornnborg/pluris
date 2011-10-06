@@ -1,0 +1,57 @@
+{
+   "config":{
+      "messages":[
+         {
+            "locale":"en",
+            "messageKey":"fruits.message",
+            "messagePattern":"{0} and {1}",
+            "plurals":[
+               {
+                  "zeroOccurs":"{0} apples",
+                  "oneOccur":"{0} apple",
+                  "manyOccurs":"{0} apples"
+               },
+               {
+                  "zeroOccurs":"no pineapple",
+                  "oneOccur":"{1} pineapple",
+                  "manyOccurs":"{1} pineapples"
+               }
+            ]
+         },
+         {
+            "locale":"pt_BR",
+            "messageKey":"fruits.message",
+            "messagePattern":"{0} e {1}",
+            "plurals":[
+               {
+                  "zeroOccurs":"{0} maçãs",
+                  "oneOccur":"{0} maçã",
+                  "manyOccurs":"{0} maçãs"
+               },
+               {
+                  "zeroOccurs":"nenhum abacaxi",
+                  "oneOccur":"{1} abacaxi",
+                  "manyOccurs":"{1} abacaxis"
+               }
+            ]
+         },         
+         {
+            "locale":"en_US",
+            "messageKey":"vehicles.message",
+            "messagePattern":"{0} and {1}",
+            "plurals":[
+               {
+                  "zeroOccurs":"{0} cars",
+                  "oneOccur":"{0} car",
+                  "manyOccurs":"{0} cars"
+               },
+               {
+                  "zeroOccurs":"no bike",
+                  "oneOccur":"{1} bike",
+                  "manyOccurs":"{1} bikes"
+               }
+            ]
+         }         
+      ]
+   }
+}
