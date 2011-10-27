@@ -4,6 +4,7 @@
 Install:
 --------
 Download the last build version and install it manually to your repo:
+
 	https://github.com/downloads/bjornnborg/pluris/pluris-1.0.jar
 	$ mvn install:install-file -DgroupId=br.com.six2six -DartifactId=pluris -Dpackaging=jar -Dversion=1.0 -Dfile=pluris-1.0.jar -DgeneratePom=true
 
